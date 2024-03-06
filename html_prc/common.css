@@ -1,0 +1,84 @@
+.primary{
+    color: #4989fd;
+}
+.secondary{
+    color: #0c117b;
+}
+h1,h6{
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 700 !important;
+}
+h1{
+    font-size: 58px !important;
+    @media (max-width: 767.98px){
+        font-size: 35px !important;
+        line-height: 35px !important;
+    }
+    @media (min-width: 768px) and (max-width: 991.98px){
+        font-size: 49px !important;
+        line-height: 49px;
+    }
+    
+}
+h2{
+    font-size: 45px !important;
+    line-height: 45px !important;
+    @media (max-width: 767.98px){
+        font-size: 22px !important;
+        line-height: 22px  !important;
+    }
+    @media (min-width: 992px) and (max-width: 1199.98px){
+        font-size: 37px !important;
+        line-height: 37px !important;
+    }
+}
+h3{
+    font-size: 42px !important;
+    font-weight: 400 !important;
+    line-height: 42px;
+    @media (min-width: 768px) and (max-width: 991.98px){
+        font-size: 42px !important;
+    }
+}
+h6{
+    font-size: 14px;
+}
+p{
+    font-size: 14px;
+    font-weight: 400;
+    @media (max-width: 767.98px){
+        font-size: 13px;
+    }
+}
+a{
+    text-decoration: none !important;
+}
+
+a{
+    font-family: "Roboto", sans-serif;
+    padding: 8px 40px;
+    border-radius: 25px;
+    @media (max-width: 767.98px){
+        padding: 4px 19px;
+        border-width: 1px !important;
+    }
+}
+.btn-f{
+    background-color: #f74371;
+    border: 3px solid #f74371 !important;
+    transition: all .4s ease-in-out;
+}
+.btn-f:hover{
+    background-color: #f30642;
+    border-color: #f30642 !important;
+    color: #fff !important;
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+.bg-img{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
